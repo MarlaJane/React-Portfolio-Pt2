@@ -12,9 +12,10 @@ export default function WorksBlock() {
             </div>
             <div className='col'>
                 <div className='container'>
-                    <div className= 'card-body' id='work'>
-                        <h1 className= 'card-title'>Work </h1>
-                        <div class="row row-cols-1 row-cols-md-2 g-4">
+                <h1 className= 'card-title'>Work </h1>
+                    {/* <div className= 'card-body' id='work'> */}
+                        {/* <h1 className= 'card-title'>Work </h1> */}
+                        <div class="row row-cols-1 row-cols-md-2">
                         <div class="col">
                                 <div class="card">
                                     <div class="card1-body">
@@ -99,7 +100,7 @@ export default function WorksBlock() {
                                     </div>
                                 </div>
                             </div>
-            </div>
+            {/* </div> */}
 
 
                 </div>

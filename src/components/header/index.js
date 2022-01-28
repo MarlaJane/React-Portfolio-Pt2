@@ -13,13 +13,11 @@ export default function Header(props) {
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                    <nav className="main-nav">
-                        <ul className="nav-list">
-                            <li className="nav-list-item"><a href="#about" onClick={() => setCurrentPage('About')}>About</a></li>
-                            <li className="nav-list-item"><a href="#work" onClick={() => setCurrentPage('Work')}>Work</a></li>
-                            <li className="nav-list-item"><a href="#contact" onClick={() => setCurrentPage('Contact')}>Contact</a></li>
-                        </ul>
-                    </nav>
+                    <div className="navbar-nav">
+                            <li className="nav-link"><a href="#about" onClick={() => setCurrentPage('About')}>About</a></li>
+                            <li className="nav-link"><a href="#work" onClick={() => setCurrentPage('Work')}>Work</a></li>
+                            <li className="nav-link"><a href="#contact" onClick={() => setCurrentPage('Contact')}>Contact</a></li>
+                    </div>
                 </div>
             </div>
         </nav>

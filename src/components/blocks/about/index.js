@@ -8,9 +8,9 @@ export default function AboutBlock() {
             </div>
             <div className="col">
                 <div className="container">
-                    
+                <h1 className= 'card-title'> About Me </h1>
                         <div className= 'card-body' id='about'>
-                            <h1 className= 'card-title'> About Me </h1>
+                            {/* <h1 className= 'card-title'> About Me </h1> */}
                             <p className= 'card-text'> 
                             I am a creative and analytical Web Developer with a background in back-end and front-end web development. 
                             More specifically I have experience with Javascript, Node.js, REST API's, HTML/CSS, React, Pug, and SQL databases.

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import background from "./components/background/images/marlaJane1.png";
+import background from "./components/background/images/marlaJanesplat.png";
 
 import Header from './components/header/index';
 import Body from './components/body/index';
@@ -16,14 +16,17 @@ export default function App() {
   return (
     <div style={{ 
       backgroundImage: `url(${background})`,
-      minHeight: '90vh',
+      minHeight: '100%',
+      minWidth: '100%',
       backgroundPosition: 'center',
       backgroundRepeat: 'no-repeat',
-      backgroundSize: 'cover',
+      backgroundSize: '100% 100%',
+      padding: '0',
+      margin: '0',
     }}>
       <Header setCurrentPage={setCurrentPage}/>
       <Body currentPage={currentPage} setCurrentPage={setCurrentPage} />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
