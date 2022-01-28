@@ -1,0 +1,23 @@
+#intro {
+    background-color: transparent;
+    border: none;
+    border-color: transparent;
+    /* padding-top: 5rem; */
+  }
+  
+  #introT {
+    font-weight: bolder;
+    font-size: 15vh;
+  }
+    
+  #introB {
+    font-weight: bolder;
+    font-size: 12vh;
+  }
+  
+  #beeGif {
+    max-width: 20rem;
+    max-height: auto;
+    margin-left: 7rem;
+    filter: grayscale(100%);
+  }

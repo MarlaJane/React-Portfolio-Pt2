@@ -14,6 +14,7 @@ export default function Header(props) {
                 </button>
                 <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <div className="navbar-nav">
+                            <li className="nav-link"><a href="/" onClick={() => setCurrentPage('Home')}>Home</a></li>
                             <li className="nav-link"><a href="#about" onClick={() => setCurrentPage('About')}>About</a></li>
                             <li className="nav-link"><a href="#work" onClick={() => setCurrentPage('Work')}>Work</a></li>
                             <li className="nav-link"><a href="#contact" onClick={() => setCurrentPage('Contact')}>Contact</a></li>

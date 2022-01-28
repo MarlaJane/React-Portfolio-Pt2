@@ -9,6 +9,7 @@
   background-color: transparent;
   padding: 0 !important;
   margin: 0 !important;
+  
 }
 
 .container {
@@ -39,7 +40,6 @@
 .card {
   border: none !important;
   margin: 0!important;
-  padding: 0!important;
   background-color: transparent !important;
 }
 
@@ -48,108 +48,12 @@
   border: solid;
   border-color: black;
   /* box-shadow: 10px 10px 20px black; */
-  margin: 0!important;
-  padding: 0!important;
 }
 
-.card1-body {
-  margin: 0;
-  padding: 0;
-  background-color: rgba(255,255,255,1);
+.card-text {
+  font-weight: bold;
 }
 
-#intro {
-  background-color: transparent;
-  border: none;
-  border-color: transparent;
+.card-title {
+  margin-top: 1rem;
 }
-
-#introT {
-  font-weight: bolder;
-  font-size: 15vh;
-}
-  
-#introB {
-  font-weight: bolder;
-  font-size: 12vh;
-}
-
-.card1-body {
-  background-color: rgba(255,255,255,1);
-  border: solid;
-  border-color: black;
-  margin-bottom: 1rem;
-  width: 15rem;
-  height: 12;
-  text-align: center;
-  padding: .5rem;
-}
-
-#marvel {
-    max-width: 12rem;
-    height: 7rem;
-    transition: .5s ease;
-    backface-visibility: hidden;
-    padding: 0;
-    margin: 0;
-  }
-
-  #weather {
-    max-width: 12rem;
-    height: 7rem;
-    transition: .5s ease;
-    backface-visibility: hidden;
-    padding: 0;
-    margin: 0;
-  }
-
-  #codebr {
-    max-width: 12rem;
-    height: 7rem;
-    transition: .5s ease;
-    backface-visibility: hidden;
-    padding: 0;
-    margin: 0;
-  }
-
-  #pup {
-    max-width: 12rem;
-    height: 7rem;
-    transition: .5s ease;
-    backface-visibility: hidden;
-    padding: 0;
-    margin: 0;
-  }
-
-  /* #test:hover {
-    transform: scale(1.5);
-    opacity: .5;
-  } */
-
-  #preOverlay {
-    max-width: 15rem;
-    height: auto;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-  }
-  
-
-  #overlay {
-    position: absolute;
-    bottom: 0;
-    background: rgb(0, 0, 0);
-    max-width: 15rem;
-    height: 7rem;
-    transition: .5s ease;
-    opacity:0;
-    color: white;
-    font-size: 15px;
-    text-align: center;
-    padding: .25rem;    
-  }
-
-
-  #overlay:hover {
-    opacity: 1;
-  }

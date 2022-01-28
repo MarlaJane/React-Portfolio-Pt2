@@ -23,6 +23,7 @@ export default function WorksBlock() {
                                         <div className='container' id='preOverlay'>
                                             <p class="card-text"> 
                                             </p>
+                                            <a href='{https://unh-bootcamp-projects.github.io/project-1-group-d/}'>
                                             <img id='marvel' src={marvel} alt="marvel" class="responsive" /> 
                                             <div className='overlay' id="overlay">                                
                                                 <div className='card2-body '>                                
@@ -32,6 +33,8 @@ export default function WorksBlock() {
                                                     
                                                 </div>
                                             </div>
+                                            </a>
+                                            
                                         </div>
                                     </div>
                                 </div>

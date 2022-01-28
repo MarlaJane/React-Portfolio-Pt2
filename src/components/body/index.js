@@ -1,6 +1,7 @@
 import AboutBlock from "../blocks/about/index";
 import WorksBlock from "../blocks/work/index";
 import ContactBlock from "../blocks/contact/index";
+import HomeBlock from "../blocks/home/index";
 import './css/index.css';
 
 export default function Body(props) {
@@ -8,6 +9,12 @@ export default function Body(props) {
 
     const renderContent = () => {
         let bodyBlocks = [];
+
+        if (currentPage === 'Home') {
+            bodyBlocks = [
+                <HomeBlock key='Home' setCurrentPage={setCurrentPage} />,
+            ];
+        }
 
         if (currentPage === 'About') {
             bodyBlocks = [

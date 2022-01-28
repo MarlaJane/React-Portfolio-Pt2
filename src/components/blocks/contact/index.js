@@ -10,11 +10,12 @@ export default function contactBlock() {
             </div>
             <div className='col'>
                 <div className='container'>
+                <h1 className= 'card-title'> Contact </h1>
 
                         <div className= 'card-body' id='contact'>
-                            <h1 className= 'card-title'> Contact </h1>
+                           
 
-                                <div className="row row-cols-1 row-cols-md-2">
+                                <div className="row row-cols-1 row-cols-md-2 g-4">
                                     <div className="col">
                                         <p className= 'card-text'>Email:</p>
                                         <p className= 'card-text'> marlajanecaram@gmail.com</p>

@@ -11,7 +11,7 @@ import 'bootstrap/dist/js/bootstrap.bundle';
 import './App.css';
 
 export default function App() {
-  const [currentPage, setCurrentPage] = useState('About');
+  const [currentPage, setCurrentPage] = useState('Home');
 
   return (
     <div style={{ 
@@ -26,7 +26,7 @@ export default function App() {
     }}>
       <Header setCurrentPage={setCurrentPage}/>
       <Body currentPage={currentPage} setCurrentPage={setCurrentPage} />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

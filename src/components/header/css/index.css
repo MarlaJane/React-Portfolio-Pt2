@@ -2,3 +2,14 @@
     background-color: transparent;
     display: flex;
 }
+
+.navbar-nav li a {
+    color: black !important;
+    font-weight: bold;
+    background-color: rgba(255,255,255,.5);
+}
+
+.nav-link:hover {
+    background-color: rgba(255,255,255,1);
+
+}
