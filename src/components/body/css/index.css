@@ -1,0 +1,124 @@
+.container {
+    font-family:'Courier New', Courier, monospace;
+    overflow-y: scroll;
+    height: 90vh;
+    position: relative;
+    background-color: transparent;
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge add Firefox
+  .scrollbar-hidden {
+    -ms-overflow-style: none;
+    scrollbar-width: none; /* Firefox */
+
+.card {
+  border: none !important;
+}
+
+.card-body {
+  background-color: rgba(255,255,255,1);
+  border: solid;
+  border-color: black;
+  margin-bottom: 1rem;
+  /* box-shadow: 10px 10px 20px black; */
+}
+
+#intro {
+  background-color: transparent;
+  border: none;
+  border-color: transparent;
+}
+
+#introT {
+  font-weight: bolder;
+  font-size: 15vh;
+}
+  
+#introB {
+  font-weight: bolder;
+  font-size: 12vh;
+}
+
+.card1-body {
+  background-color: rgba(255,255,255,1);
+  border: solid;
+  border-color: black;
+  margin-bottom: 1rem;
+  width: 15rem;
+  height: 12;
+  text-align: center;
+  padding: .5rem;
+}
+
+#marvel {
+    max-width: 12rem;
+    height: 7rem;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    padding: 0;
+    margin: 0;
+  }
+
+  #weather {
+    max-width: 12rem;
+    height: 7rem;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    padding: 0;
+    margin: 0;
+  }
+
+  #codebr {
+    max-width: 12rem;
+    height: 7rem;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    padding: 0;
+    margin: 0;
+  }
+
+  #pup {
+    max-width: 12rem;
+    height: 7rem;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    padding: 0;
+    margin: 0;
+  }
+
+  /* #test:hover {
+    transform: scale(1.5);
+    opacity: .5;
+  } */
+
+  #preOverlay {
+    max-width: 15rem;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+
+  #overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    max-width: 15rem;
+    height: 7rem;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    padding: .25rem;    
+  }
+
+
+  #overlay:hover {
+    opacity: 1;
+  }
