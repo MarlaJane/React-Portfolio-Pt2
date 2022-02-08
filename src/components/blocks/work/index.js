@@ -4,18 +4,18 @@ import codebr from './images/codebr.png'
 import pup from './images/pupHub.png'
 import './css/index.css';
 
-import React from 'react';
-import { useHistory } from "react-router-dom";
+// import React from 'react';
+// import { useHistory } from "react-router-dom";
 
 
 export default function WorksBlock() {
 
-    const history = useHistory();
+    // const history = useHistory();
     
-    const routeChange = () =>{ 
-        let path = `newPath`; 
-        history.push(path);
-    };
+    // const routeChange = () =>{ 
+    //     let path = `newPath`; 
+    //     history.push(path);
+    // };
 
     return (
         <div className='row'>
@@ -36,7 +36,7 @@ export default function WorksBlock() {
                                             <p class="card-text"> 
                                             </p>
                                             <a href='{https://unh-bootcamp-projects.github.io/project-1-group-d/}'>
-                                            <img id='marvel' src={marvel} alt="marvel" class="responsive" onClick={routeChange}/> 
+                                            <img id='marvel' src={marvel} alt="marvel" class="responsive" /> 
                                             <div className='overlay' id="overlay">                                
                                                 <div className='card2-body '>                                
                                                     <p class="card-text">
