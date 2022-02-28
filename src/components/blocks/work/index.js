@@ -10,13 +10,6 @@ import './css/index.css';
 
 export default function WorksBlock() {
 
-    // const history = useHistory();
-    
-    // const routeChange = () =>{ 
-    //     let path = `newPath`; 
-    //     history.push(path);
-    // };
-
     return (
         <div className='row'>
             <div className='col'>
@@ -31,12 +24,11 @@ export default function WorksBlock() {
                         <div class="col">
                                 <div class="card">
                                     <div class="card1-body">
-                                        <h5 class="card-title">DareDEVils Archive</h5>                                        
+                                        <button class="button" onClick={() => window.open("https://unh-bootcamp-projects.github.io/project-1-group-d/")} >DareDEVils Archive</button>                                        
                                         <div className='container' id='preOverlay'>
                                             <p class="card-text"> 
                                             </p>
-                                            <a href='{https://unh-bootcamp-projects.github.io/project-1-group-d/}'>
-                                            <img id='marvel' src={marvel} alt="marvel" class="responsive" /> 
+                                            <img id='marvel' src={marvel} alt="marvel" class="responsive"/> 
                                             <div className='overlay' id="overlay">                                
                                                 <div className='card2-body '>                                
                                                     <p class="card-text">
@@ -44,8 +36,6 @@ export default function WorksBlock() {
                                                     </p> 
                                                 </div>
                                             </div>
-                                            </a>
-                                            
                                         </div>
                                     </div>
                                 </div>
@@ -53,7 +43,7 @@ export default function WorksBlock() {
                             <div class="col">
                                 <div class="card">
                                     <div class="card1-body">
-                                        <h5 class="card-title">Weather Dashboard</h5>                                        
+                                        <button class="button" onClick={() => window.open("https://marlajane.github.io/weather-api/")}>Weather Dashboard</button>                                        
                                         <div className='container' id='preOverlay'>
                                             <p class="card-text">
                                                 
@@ -75,7 +65,7 @@ export default function WorksBlock() {
                             <div class="col">
                                 <div class="card">
                                     <div class="card1-body">
-                                        <h5 class="card-title">Code&lt;br{'>'}</h5>                                        
+                                        <button class="button" onClick={() => window.open("https://code-br.herokuapp.com/")}>Code&lt;br{'>'}</button>                                        
                                         <div className='container' id='preOverlay'>
                                             <p class="card-text">
                                             </p>
@@ -96,7 +86,7 @@ export default function WorksBlock() {
                             <div class="col">
                                 <div class="card">
                                     <div class="card1-body">
-                                        <h5 class="card-title ">PupHub</h5>                                        
+                                        <button class="button" onClick={() => window.open("https://unh-bootcamp-projects.github.io/project-1-group-d/")}>PupHub</button>                                        
                                         <div className='container' id='preOverlay'>
                                             <p class="card-text">
                                             </p>
