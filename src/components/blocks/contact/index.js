@@ -21,9 +21,9 @@ export default function contactBlock() {
                                         <p className= 'card-text'> marlajanecaram@gmail.com</p>
                                         <p className= 'card-text'> Phone Number:</p>
                                         <p className= 'card-text'> (347) 766-4247</p>
-                                        <i className="bi bi-linkedin"> </i>
-                                        <i className="bi-github" role="img" aria-label="GitHub"> </i>
-                                        <i className="bi bi-instagram"> </i>
+                                        <i className="bi bi-linkedin" onClick={() => window.open("https://www.linkedin.com/in/marla-jane-caram/")}> </i>
+                                        {/* <i className="bi-github" role="img" aria-label="GitHub"> </i>
+                                        <i className="bi bi-instagram"> </i> */}
                                     </div>
                                     <div className='col'>
                                     <a href={resumePDF} download><img id='resume' src={resume} alt="resume" class="responsive" /></a>

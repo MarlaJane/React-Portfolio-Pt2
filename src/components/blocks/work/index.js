@@ -1,7 +1,7 @@
 import marvel from './images/dareDEVils.png'
 import weather from './images/weatherdash.png'
 import codebr from './images/codebr.png'
-import pup from './images/pupHub.png'
+// import pup from './images/pupHub.png'
 import './css/index.css';
 
 // import React from 'react';
@@ -83,10 +83,16 @@ export default function WorksBlock() {
                                     </div>
                                 </div>
                             </div>
-                            <div class="col">
+                            <div className="col">
                                 <div class="card">
                                     <div class="card1-body">
-                                        <button class="button" onClick={() => window.open("https://unh-bootcamp-projects.github.io/project-1-group-d/")}>PupHub</button>                                        
+                                        <div className='card-text'>
+                                            <p> </p>
+                                            <p>Check out my GitHub to see more!</p>
+                                            
+                                            <i className="bi-github" role="img" aria-label="GitHub" onClick={() => window.open("https://github.com/MarlaJane")}> </i>
+                                        </div>
+                                        {/* <button class="button" onClick={() => window.open("https://unh-bootcamp-projects.github.io/project-1-group-d/")}>PupHub</button>                                        
                                         <div className='container' id='preOverlay'>
                                             <p class="card-text">
                                             </p>
@@ -100,7 +106,7 @@ export default function WorksBlock() {
                                                     
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                             </div>

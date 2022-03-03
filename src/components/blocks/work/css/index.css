@@ -73,3 +73,13 @@
   #overlay:hover {
     opacity: 1;
   }
+
+  .bi-github {
+    font-size: 3.3rem;
+  }
+
+  .bi-github:hover {
+    font-size: 3.3rem;
+    opacity: .5;
+    cursor: pointer;
+  }
